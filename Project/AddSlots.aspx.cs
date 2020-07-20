@@ -67,7 +67,7 @@ public partial class AddSlots : System.Web.UI.Page
             con.Close();
             Session["slot"] = "slot";
             Response.Redirect("AddSlots.aspx");
-            //Page.ClientScript.RegisterStartupScript(GetType(), "msgbox", "alert('Lat : "+lats+", Long : "+longs+"');", true);
+           
         }
     }
 }
